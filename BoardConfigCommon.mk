@@ -178,3 +178,18 @@ BOARD_HARDWARE_CLASS := \
 
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
+
+# TWRP
+TW_THEME := portrait_hdpi
+TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_HAS_NO_SELECT_BUTTON := true
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
+TW_THEME := portrait_hdpi
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_CRYPTO := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+RECOVERY_SDCARD_ON_DATA := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_SCREEN_BLANK_ON_BOOT := true
