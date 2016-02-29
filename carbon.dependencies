@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_kernel_lge_msm8992",
+    "target_path": "kernel/lge/msm8992",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "CarbonROM/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "revision": "cr-4.0"
+  }
+]
